@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+header{
+    float: inline-start;
+    border-bottom: rgb(0, 0, 0);
+    font-size: 16px;
+}
+
+nav {
+    border: darkorange;
+    text-align: center;
+}
+
+body {
+    background-color: tan;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+     color: rgb(0, 0, 0);
+    
+}
+article {
+    margin: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+h1 {
+    color:crimson;
+}
+footer{
+    float: inline-end;
+    background-color: gray;
+    background-size: 50%;
+    text-align: center;
+}
+a:hover {
+    background-color: red;
+}
+a:link{
+    color: rgb(55, 0, 207);
+    font-family: italic;
+}
+a:visited{
+    color: green;
+}
+
+img {
+    float: right;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+
+
+
+
+
