@@ -9,7 +9,8 @@ header{
 }
 
 nav {
-    border: darkorange;
+    border: 5px;
+    border-color: black;
     text-align: center;
 }
 
@@ -22,8 +23,8 @@ body {
 }
 article {
     margin: 10px;
-    text-align: center;
     width: 100%;
+    text-align: center;
 }
 
 h1 {
@@ -46,15 +47,12 @@ a:visited{
     color: green;
 }
 
-img {
-    float: right;
-}
-
 .row::after {
     content: "";
     clear: both;
     display: table;
   }
+ 
 
 
 
